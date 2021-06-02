@@ -4,7 +4,8 @@ source activate chineseocr
 cd darknet/ && make && cd ..
 pip install easydict opencv-contrib-python==4.0.0.21 Cython h5py lmdb mahotas pandas requests bs4 matplotlib lxml 
 pip install -U pillow 
-pip install web.py==0.40.dev0 redis
+pip install web.py==0.62 redis
+pip install h5py==2.8.0
 pip install keras==2.1.5 tensorflow==1.8
 ## mac
 conda install pytorch torchvision -c pytorch
